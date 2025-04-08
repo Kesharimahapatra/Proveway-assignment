@@ -73,7 +73,7 @@ h2::after {
   padding: 6%;
   border-radius: 8px;
   /* background: #fff9fa; */
-  background: #faf8f9;
+  /* background: #faf8f9; */
 }
 
 .offer input {
@@ -85,8 +85,7 @@ h2::after {
 }
 
 .offer.selected {
-  border-color: #ff6b82 !important; /* Apply when selected */
-  /* padding-bottom: 20px;  */
+  border-color: #ff6b82 !important; 
   display: flex;
   background-color: #fff9fa;
 }
