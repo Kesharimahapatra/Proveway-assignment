@@ -233,12 +233,16 @@ select {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s;
+transition: all 0.3s ease;
 }
 
 .add-to-cart:hover {
   background: #ff6b82;
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+
 @media (max-width: 400px) {
   .container {
    width: 100%;
